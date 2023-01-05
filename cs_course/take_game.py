@@ -1,9 +1,9 @@
-if int(input('What player do you want to be?')) == 1:
+if int(input('player number, 1 or 2')) == 1:
     start = False
 else:
     start = True
 
-count = int(input('What is the count for the game?'))
+count = int(input('input count'))
 
 
 def game(start, count):
@@ -16,17 +16,17 @@ def game(start, count):
             print('pc takes', str(take))
             start = not start
         else:
-            count -= int(input('How many do you want to take away between 1 and 3?'))
+            count -= int(input('insert your number, 1-3'))
             start = not start
         print(count)
-    print(winner(start))
+    return winner(start)
 
 
 def winner(player):
     if player:
-        return 'Spieler 1'
+        return 'player 2 is the winner'
     else:
-        return 'Spieler 2'
+        return 'player 1 ist the winner'
 
 
-game(start, count)
+print(game(start, count))
