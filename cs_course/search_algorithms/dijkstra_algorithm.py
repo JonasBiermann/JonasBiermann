@@ -18,7 +18,7 @@ def findConnections(node):
 
 def assignWeights(connections, node):
     for element in connections:
-        if matrix[node][element] < 
+        if getWeight(node) + matrix[node][element] >= nodes[element][0]:
             nodes[element][0] = matrix[node][element]
             nodes[element][1] = node
             nodes[element][2] = True
@@ -37,6 +37,15 @@ def finished():
         if element[3] == False:
             finished = False
     return finished
+
+
+def getWeight(node):
+    _node = node
+    weight = 0
+    while nodes[_node][0] != 0:
+        weight += nodes[_node][0]
+        _node = nodes[_node][1]
+    return weight
 
 
 def dijkstra():
