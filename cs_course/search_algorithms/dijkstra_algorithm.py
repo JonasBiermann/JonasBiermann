@@ -18,8 +18,9 @@ def findConnections(node):
 
 def assignWeights(connections, node):
     for element in connections:
-        if getWeight(node) + matrix[node][element] >= nodes[element][0]:
-            nodes[element][0] = matrix[node][element]
+        weight = nodes[node][0] + matrix[node][element]
+        if weight < nodes[element][0]:
+            nodes[element][0] = weight
             nodes[element][1] = node
             nodes[element][2] = True
     nodes[node][2] = False
@@ -48,18 +49,27 @@ def getWeight(node):
     return weight
 
 
-def dijkstra():
+def dijkstra(finalNode):
     while finished() != True:
         queue = currentQueue()
         if queue != []:
             node = nodes.index(min(queue))
-            print('min queue', min(queue))
-            print('queue', queue)
         else:
             node = nodes.index(min(nodes))
-        print(node)
-        print(assignWeights(findConnections(node), node))
-        print('-------------')
+        assignWeights(findConnections(node), node)
+    path = [finalNode]
+    _node = finalNode
+    weight = nodes[_node][0]
+    while nodes[_node][0] != 0:
+        path.append(nodes[_node][1])
+        _node = nodes[_node][1]
+    return list(reversed(path)), weight
 
 
-dijkstra()
+def main():
+    for i in range(1, 8):
+        finalNode = i
+        print(dijkstra(finalNode))
+
+
+main()
