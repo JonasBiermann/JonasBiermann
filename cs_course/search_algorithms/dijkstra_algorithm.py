@@ -40,15 +40,6 @@ def finished():
     return finished
 
 
-def getWeight(node):
-    _node = node
-    weight = 0
-    while nodes[_node][0] != 0:
-        weight += nodes[_node][0]
-        _node = nodes[_node][1]
-    return weight
-
-
 def dijkstra(finalNode):
     while finished() != True:
         queue = currentQueue()
