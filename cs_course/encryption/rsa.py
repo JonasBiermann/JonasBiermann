@@ -24,7 +24,7 @@ def primefinder(n: int) -> list[int]:
     return [i for i in range(n) if is_prime[i]]
 
 primes = primefinder(1000)
-print(primes)
+# print(primes)
 
 # p = 993481
 # q = 848017
@@ -46,16 +46,61 @@ e = coprime(2, phi)
 
 lcm = math.lcm(p-1, q-1)
 
+# def extended_euclidean_algorithm(e, phi):
+#     l = []
+#     factor = e
+#     result = phi
+#     while True:
+#         amount = math.floor(phi/factor)
+#         rest = phi % factor
 
-def modular_inverse(e,lcm):
-    x = 0
-    while True:
-        if (e%lcm)*(x%lcm) % lcm == 1:
-            return x
-        x += 1
+#         l.append([result, amount, factor, rest])
+#         phi = factor
+#         result = phi
+#         factor = rest
+#         if rest == 1:
+#             break
+    
+#     while True:
+#         pass
+        
+# def extended_gcd(a, b):
+#     if a == 0:
+#         return b, 0, 1
+#     else:
+#         gcd, x, y = extended_gcd(b % a, a)
+#         return gcd, y - (b // a) * x, x
+
+
+# print(extended_gcd(3, 3127))
+
+# d = extended_gcd(11, 701111)[1] + 701111
+
+# print(d)
+
+# def modular_inverse(e,lcm):
+#     x = 0
+#     while True:
+#         if (e%lcm)*(x%lcm) % lcm == 1:
+#             return x
+#         x += 1
         
 
-d = modular_inverse(e, lcm)
+# d = modular_inverse(e, lcm)
+
+from typing import Tuple
+def xgcd(a: int, b: int) -> Tuple[int, int, int]:
+    
+    x0, x1, y0, y1 = 0, 1, 1, 0
+    while a != 0:
+        (q, a), b = divmod(b, a), a
+        y0, y1 = y1, y0 - q * y1
+        x0, x1 = x1, x0 - q * x1
+    return b, x0, y0
+
+d = xgcd(11, 349716)[1] + 349716
+
+print(d)
 
 def encrypt(message):
     # message = [ord(c) for c in message]
@@ -63,11 +108,11 @@ def encrypt(message):
     encrypted_message = pow(12, e)%n
     return encrypted_message
 
-print(encrypt('hi'))
+# print(encrypt('hi'))
 
 def decrypt(message):
     decrypted_message = pow(12, d) % n
     return decrypted_message
 
-m = decrypt(encrypt(12))
-print(q, p, n, e, phi, d, m)
+# m = decrypt(encrypt(12))
+# print(q, p, n, e, phi, d, m)
