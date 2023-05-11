@@ -64,3 +64,5 @@ def decrypt(message):
 
 # m = decrypt(encrypt(12))
 # print(q, p, n, e, phi, d, m)
+
+# https://en.wikibooks.org/wiki/Algorithm_Implementation/Mathematics/Extended_Euclidean_algorithm
