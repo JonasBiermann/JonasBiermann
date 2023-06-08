@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Aufgabe}{2}{section.1}%
+\contentsline {section}{\numberline {2}Vorbetrachtung}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Funktionsweise Akkumulator}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Vorgänge an den Elektroden}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Reaktionsgleichungen}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Elektronegativität}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Elektrochemisches Standardpotential}{3}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Elektrochemische Spannungsreihe}{3}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Elektrolyse}{3}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Reversibilität einer chemischen Reaktion im Akku}{3}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Hypothese}{4}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Geräte, Hilfsmittel und Chemikalien}{4}{section.3}%
+\contentsline {section}{\numberline {4}Skizze und Aufbau}{4}{section.4}%
+\contentsline {section}{\numberline {5}Durchführung und Beobachtung}{4}{section.5}%
+\contentsline {section}{\numberline {6}Auswertung}{6}{section.6}%
+\contentsline {section}{\numberline {7}Fehlerbetrachtung}{10}{section.7}%
+\contentsline {section}{\numberline {8}Quellen}{10}{section.8}%
