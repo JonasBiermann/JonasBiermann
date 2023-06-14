@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.28)  22 MAY 2023 23:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.28)  14 JUN 2023 22:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,36 +357,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <./assets//figure.png, id=115, 2055.68pt x 971.63pt>
 File: ./assets//figure.png Graphic file (type png)
 <use ./assets//figure.png>
-Package pdftex.def Info: ./assets//figure.png  used on input line 107.
+Package pdftex.def Info: ./assets//figure.png  used on input line 106.
 (pdftex.def)             Requested size: 380.29485pt x 179.74873pt.
 <./assets//aufbau.jpg, id=116, 2972.10374pt x 3962.805pt>
 File: ./assets//aufbau.jpg Graphic file (type jpg)
 <use ./assets//aufbau.jpg>
-Package pdftex.def Info: ./assets//aufbau.jpg  used on input line 113.
+Package pdftex.def Info: ./assets//aufbau.jpg  used on input line 112.
 (pdftex.def)             Requested size: 237.77316pt x 317.03088pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--121
+Underfull \hbox (badness 10000) in paragraph at lines 116--120
 
  []
 
 [4 </Volumes/Data/JonasBiermann/project_electrochemistry/./assets//figure.png>]
-Overfull \hbox (3.99168pt too wide) in paragraph at lines 137--137
+Overfull \hbox (3.99168pt too wide) in paragraph at lines 136--136
 []\OT1/cmr/m/n/10.95 4.1|  
  []
 
 
-Overfull \hbox (3.99168pt too wide) in paragraph at lines 137--137
+Overfull \hbox (3.99168pt too wide) in paragraph at lines 136--136
 []\OT1/cmr/m/n/10.95 4.2|  
  []
 
 <./assets//beobachtung.jpg, id=123, 3035.34pt x 4047.12pt>
 File: ./assets//beobachtung.jpg Graphic file (type jpg)
 <use ./assets//beobachtung.jpg>
-Package pdftex.def Info: ./assets//beobachtung.jpg  used on input line 146.
+Package pdftex.def Info: ./assets//beobachtung.jpg  used on input line 145.
 (pdftex.def)             Requested size: 182.11253pt x 242.81673pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -395,32 +395,32 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <./assets//absolute.png, id=146, 1208.515pt x 748.7975pt>
 File: ./assets//absolute.png Graphic file (type png)
 <use ./assets//absolute.png>
-Package pdftex.def Info: ./assets//absolute.png  used on input line 177.
+Package pdftex.def Info: ./assets//absolute.png  used on input line 176.
 (pdftex.def)             Requested size: 302.128pt x 187.19891pt.
 <./assets//relative.png, id=148, 1208.515pt x 748.7975pt>
 File: ./assets//relative.png Graphic file (type png)
 <use ./assets//relative.png>
-Package pdftex.def Info: ./assets//relative.png  used on input line 184.
+Package pdftex.def Info: ./assets//relative.png  used on input line 183.
 (pdftex.def)             Requested size: 302.128pt x 187.19891pt.
  [7 </Volumes/Data/JonasBiermann/project_electrochemistry/./assets//absolute.png> </Volumes/Data/JonasBiermann/project_electrochemistry/./assets//relative.png>]
 <./assets//absolute_alt.png, id=161, 1208.515pt x 748.7975pt>
 File: ./assets//absolute_alt.png Graphic file (type png)
 <use ./assets//absolute_alt.png>
-Package pdftex.def Info: ./assets//absolute_alt.png  used on input line 194.
+Package pdftex.def Info: ./assets//absolute_alt.png  used on input line 193.
 (pdftex.def)             Requested size: 302.128pt x 187.19891pt.
 <./assets//relative_alt.png, id=162, 1210.5225pt x 750.805pt>
 File: ./assets//relative_alt.png Graphic file (type png)
 <use ./assets//relative_alt.png>
-Package pdftex.def Info: ./assets//relative_alt.png  used on input line 201.
+Package pdftex.def Info: ./assets//relative_alt.png  used on input line 200.
 (pdftex.def)             Requested size: 302.62988pt x 187.70079pt.
  [8 </Volumes/Data/JonasBiermann/project_electrochemistry/./assets//absolute_alt.png> </Volumes/Data/JonasBiermann/project_electrochemistry/./assets//relative_alt.png>] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 212--220
+Underfull \hbox (badness 10000) in paragraph at lines 211--219
 []$\OT1/cmtt/m/n/10.95 https : / / www . tugraz . at / fileadmin / user _ upload / Institute / ICTM / education /
  []
 
 [10]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 226.
+(Font)              <5> on input line 225.
  [11] (/Volumes/Data/JonasBiermann/project_electrochemistry/project_electrochemistry.aux)
 Package rerunfilecheck Info: File `project_electrochemistry.out' has not changed.
 (rerunfilecheck)             Checksum: 49C6C10D7C6E5914B8F75D64C19EE5ED;2729.
@@ -434,7 +434,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  71i,10n,74p,1415b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on /Volumes/Data/JonasBiermann/project_electrochemistry/project_electrochemistry.pdf (11 pages, 3184062 bytes).
+Output written on /Volumes/Data/JonasBiermann/project_electrochemistry/project_electrochemistry.pdf (11 pages, 3184075 bytes).
 PDF statistics:
  243 PDF objects out of 1000 (max. 8388607)
  205 compressed objects within 3 object streams
