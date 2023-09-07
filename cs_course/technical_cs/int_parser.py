@@ -6,7 +6,6 @@ def int_parser(scan):
             return checkI(i+1)
 
     def checkI(i):
-        check = False
         while i != len(scan):
             if scan[i][0] == 'int':
                 i += 1
