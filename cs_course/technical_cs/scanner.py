@@ -5,7 +5,7 @@ def scanner(input):
     words['la'] = ['pla', 'la']
     words['le'] = ['pla', 'le']
     words['lu'] = ['end', 'lu']
-
+    print(words)
     scan = []
     while input[i] != '#':
         if input[i:i+2] not in words.keys():
@@ -14,3 +14,5 @@ def scanner(input):
         i += 2
 
     return scan
+
+scanner('lalelu')
