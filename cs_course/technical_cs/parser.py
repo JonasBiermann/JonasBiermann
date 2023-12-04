@@ -26,5 +26,5 @@ def parser(scan):
         return False
 
 test = input('What string do you want to check? ')
-
+print(scanner(test))
 print(parser(scanner(test)))
