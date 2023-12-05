@@ -1,6 +1,6 @@
 main = do
     let y = 5
-    let x = quadrat y
+    let x = square y
     let z = doubleNums x y
 
     let d = function x y z
@@ -45,9 +45,10 @@ main = do
     print(mersenne(summation 100))
     print(order 5 3 1)
     print(windchill 10 2)
+    print(strange 10)
 
-quadrat :: Int -> Int
-quadrat y = y*y
+square :: Int -> Int
+square y = y*y
 
 doubleNums :: Int -> Int -> Int
 doubleNums x y = x*2 + y*2
@@ -87,5 +88,12 @@ order a b c = if a < b
         then "Decreasing Order"
         else error "Number is invalid"
 
-windchill :: Int -> Int -> Int
-windchill t v = (13.12 + 0.6215 * t - 11.37 * (v**0.16) + 0.3965*t*(v**0.16))
+-- windchill :: Int -> Int -> Float
+
+windchill t v = 13.12+0.6215*t-11.37*v**0.16+0.3965*t*v**0.16
+
+strange :: Int -> Int
+strange x
+    | x > 10 = div (x+3) 2
+    | x < 10 = (div (x*x) 3) +5
+    | otherwise = square x
