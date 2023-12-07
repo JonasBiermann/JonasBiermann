@@ -46,7 +46,28 @@ main = do
     print(order 5 3 1)
     print(windchill 10 2)
     print(strange 10)
+    print([x*2 | x <- [1..20]])
+    print([x | x <- [1..10], odd x])
+    print([x*2 | x <- [1..10], x*2 >= 15])
+    print([ x | x <- [50..100], x `mod` 7 == 3])
+    print(superToll [5..13])
+    print(laenge [2, 7, 3, 9])
 
+    let kombis = [ (a,b,c) | c <- [1..3], b <- [1..3], a <- [1..3] ]
+    print(kombis)
+    let kombis2 = [ (a,b,c) | c <- [1..3], b <- [1..c], a <- [1..b] ]
+    print(kombis2)
+    let besondere = [ (a,b,c) | c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2]
+    print(besondere!!0)
+    print(triangle 1 2 3)
+
+    print(bmi 63 1.85)
+
+    print(checkBracket 'a')
+
+    print(sod 1234)
+
+    print(fib 5)
 square :: Int -> Int
 square y = y*y
 
@@ -97,3 +118,27 @@ strange x
     | x > 10 = div (x+3) 2
     | x < 10 = (div (x*x) 3) +5
     | otherwise = square x
+
+superToll xs = [ if x < 10 then "Super!" else "Toll!" | x <- xs, odd x]
+
+laenge xs = sum [1 | _ <- xs]
+
+triangle a b c = if abs(a)+abs(b) >= abs(a+b)
+    then True
+    else False
+
+checkBracket a = if a =='('||a==')'||a=='['||a==']'||a=='{'||a=='}'
+    then True
+    else False
+
+bmi k g = 
+    -- let i = k/g**2
+    if k/g**2 < 18
+        then "Untergewichtig"
+    else if k/g**2 > 25
+        then "Übergewichtig"
+    else "Normal"
+
+sod d
+    | d<10 =d
+    | d >= 10 = d `mod` 10 + sod(d `div` 10)
