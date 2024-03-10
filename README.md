@@ -1,6 +1,4 @@
 - 👋 Hi, I’m @JonasBiermann
-- 👀 I’m interested in mobile development using flutter and dart
-- 🌱 I’m currently learning flutter and solidity
 - 📫 You can reach me on twitter under @jacob_biermann or via email at jojabiermann@gmail.com
 
 <!---
